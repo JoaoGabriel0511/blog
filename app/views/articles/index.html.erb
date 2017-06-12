@@ -1,6 +1,12 @@
-<h1>Listing articles</h1>
-<%=link_to "Novo artigo", new_article_path %> 
-<table>
+<div class="container">
+  <div class="row">
+    <div class="text-center">
+      <h1>Listing articles</h1>
+      <%=link_to "New article", new_article_path %>
+    </div>  
+  </div>  
+</div>   
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Title</th>
